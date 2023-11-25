@@ -4,8 +4,6 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
-import java.util.concurrent.atomic.AtomicLongArray;
 
 public class WordTree {
     
@@ -17,6 +15,7 @@ public class WordTree {
         private CharNode father;
         private List<CharNode> children;
 
+        // Construtores
         public CharNode(char character) {
             this.character = character;
             significado = null;
@@ -37,6 +36,7 @@ public class WordTree {
         * Adiciona um filho (caracter) no nodo. Não pode aceitar caracteres repetidos.
         * @param character - caracter a ser adicionado
         * @param isfinal - se é final da palavra ou não
+        * @return - o nodo adicionado, ou o nodo já existente se for um caracter repetido
         */
         public CharNode addChild (char character, boolean isfinal, String sig) {
             for (CharNode charNode : children) {
@@ -54,6 +54,7 @@ public class WordTree {
             return null;
         }
         
+        // Metodos getters
         public int getNumberOfChildren () {
             return children.size();
         }
@@ -105,7 +106,7 @@ public class WordTree {
 
 
     
-    // Metodos
+    // Metodos getters
     public int getTotalWords() {
         return totalWords;
     }
@@ -162,6 +163,12 @@ public class WordTree {
         return result;
     }
     
+    /**
+    * Adiciona todas as relações entre os nodos em uma lista, no formato para a engine dot
+    * Um método recursivo
+    * @param ref - O Nodo atual
+    * @param result - A lista que receberá as Strings
+    */
     private void DumpRelacoes(CharNode ref, List<String> result){
         if(ref.getNumberOfChildren()!=0)
             for(CharNode n: ref.children){
@@ -171,6 +178,12 @@ public class WordTree {
             }
     }
 
+    /**
+    * Adiciona todas as descrições dos nodos em uma lista, no formato para a engine dot
+    * Um método recursivo
+    * @param ref - O Nodo atual
+    * @param result - A lista que receberá as Strings
+    */
     private void DumpNodes(CharNode ref, List<String> result){
         if (!ref.isFinal) result.add("  "+ref.character + Integer.decode("#"+ref.toString().substring(18))+ " [label = " + ref.character + "]\n");
         else result.add("  "+ref.character + Integer.decode("#"+ref.toString().substring(18))+ " [label = " + ref.character + ", style = filled, fillcolor = GRAY]\n");
@@ -179,6 +192,11 @@ public class WordTree {
         }
     }
 
+    /**
+    * Retorna uma String com a descrição da árvore no formato para a engine dot
+    * @return A String com as informações da árvore
+    */
+    @Override
     public String toString(){
         if(root==null){
             return "[árvore vazia]";

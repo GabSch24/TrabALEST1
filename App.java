@@ -6,14 +6,14 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 
 public class App {
     public static void main(String[] args) {
-        LinkedList<Palavra> lista = new LinkedList<>();
+        //LinkedList<Palavra> lista = new LinkedList<>();
+        ListWord listWord = new ListWord();
         WordTree arvore = new WordTree();
         String aux[];
                 
@@ -22,10 +22,10 @@ public class App {
         try (BufferedReader reader = Files.newBufferedReader(path1, Charset.forName("UTF-8"))) {// Charset.defaultCharset())
             String line = reader.readLine();
             while (line != null) {
-                //if (line.charAt(1) == 'A' && line.charAt(2) == 'b') line = line.substring(1);
                 aux = line.split(";");
                 Palavra p = new Palavra(aux[0],aux[1]);
-                lista.add(p);
+                //lista.add(p);
+                listWord.adicionarPalavra(p);
                 arvore.addWord(p);
                 line = reader.readLine();
             }
@@ -46,6 +46,7 @@ public class App {
         System.out.println(temp.size());
         System.out.println(arvore.getTotalWords());
         System.out.println(arvore.getTotalNodes());
+        //System.out.println(listWord.getPalavras().toString());
         
     }
  
