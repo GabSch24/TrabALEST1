@@ -131,13 +131,19 @@ public class WordTree {
         totalWords++;
     }
     
-    /**
+     /**
      * Vai descendo na árvore até onde conseguir encontrar a palavra
      * @param word
      * @return o nodo final encontrado
      */
     private CharNode findCharNodeForWord(String word) {
-        return null;
+        CharNode currentNode = root;
+        for(Character c: word.toUpperCase().toCharArray()){ 
+            if(currentNode == null){return null;}   // Se não tem refencia ao proximo caractere da palavra retorna nulo 
+            currentNode = currentNode.findChildChar(c); 
+        }
+
+        return currentNode;
     }
 
     /**
