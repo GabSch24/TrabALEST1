@@ -1,0 +1,91 @@
+
+Tempo de pesquisa na arvore para a palavra 'b': 248899 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 64821 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'b': 154701 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 101326 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'b': 203725 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 85429 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'b': 342364 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 288342 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'b': 289440 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 85974 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'b': 192371 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 141657 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'b': 243929 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 162851 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'b': 209456 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 79937 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'b': 316049 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 79053 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'b': 405545 nanossegundos
+Tempo de pesquisa na lista para a palavra 'b': 80127 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 1658042 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 234217 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 1123221 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 47703 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 747340 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 47369 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 469482 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 51876 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 788199 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 49949 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 2525548 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 64326 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 531923 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 46107 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 807388 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 50865 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 1153675 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 168593 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra '': 822247 nanossegundos
+Tempo de pesquisa na lista para a palavra '': 43609 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 136305 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 88951 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 353544 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 184416 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 72525 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 203964 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 76219 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 114763 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 148778 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 155017 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 210331 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 113257 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 81737 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 91518 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 114453 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 111431 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 187067 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 120846 nanossegundos
+
+Tempo de pesquisa na arvore para a palavra 'berma': 87006 nanossegundos
+Tempo de pesquisa na lista para a palavra 'berma': 153844 nanossegundos
+

@@ -38,7 +38,7 @@ public class ListWord {
     public List<Palavra> consultarPalavras(String prefixo) {
         List<Palavra> resultados = new LinkedList<>();
         for (Palavra palavra : palavras) {
-            if (palavra.getPalavra().startsWith(prefixo)) {
+            if (palavra.getPalavra().startsWith(prefixo.toUpperCase())) {
                 resultados.add(palavra);
             }
         }
